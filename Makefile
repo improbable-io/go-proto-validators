@@ -42,4 +42,4 @@ regenerate:
 	--proto_path=${GOPATH}/src/github.com/gogo/protobuf/protobuf \
 	--proto_path=. \
 	--gogo_out=Mgoogle/protobuf/descriptor.proto=github.com/gogo/protobuf/protoc-gen-gogo/descriptor:. \
-	validator.proto)
+	src/github.com/mwitkow/go-proto-validators/validator.proto)
